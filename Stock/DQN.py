@@ -9,7 +9,7 @@ import stockData
 ENV_NAME = 'CartPole-v0'
 GAMMA = 0.9
 INITIAL_EPSILON = 0.9
-FINAL_EPSILON = 0.001
+FINAL_EPSILON = 0.01
 REPLAY_SIZE = 10000
 BATCH_SIZE = 32
 TEST=10
@@ -83,6 +83,10 @@ class DQN():
         Q_value_batch = self.Q_value.eval(feed_dict={self.state_input:next_state_batch})
         for i in range(0,BATCH_SIZE):
             done = minibatch[i][4]
+            if reward_batch[i]<0:
+                reward_batch[i] = reward_batch[i]*0.1
+            else :
+                reward_batch[i] = reward_batch[i]/state_batch[i][0]*90
             if done:
                 y_batch.append(reward_batch[i])
             else:
@@ -93,15 +97,51 @@ class DQN():
             self.action_input:action_batch,
             self.state_input:state_batch
         })
+def test(sockNum,env,episode,agent,time,use,is_test):
+    fout = open("record" + sockNum, "a")
+    total_reward = 0
 
+    state = env.reset(use, time)
+    if is_test:
+        fout.write("test:\n")
+        print "test:\n"
+    else :
+        fout.write("use:\n")
+        print "use:\n"
+    fout.write(str(episode) + ":\n============================\n")
+    fund = 100.0
+    for j in range(STEP):
+        # env.render()
+        action = agent.action(state)
+        last = state[0] + (action - 10) * 10
+        if action < 10:
+            last = state[0] + (action - 10) / 10.0 * state[0]
+
+        else:
+            last = state[0] + (action - 10) / 10.0 * (100 - state[0])
+        fund = (100 - last) * fund + last * fund * env.y_[env.index] / env.y_[env.index + 1]
+        fund /= 100
+        state, reward, done, _ = env.step(action)
+        total_reward += reward
+        fout.write(str(reward) + " with " + str((action - 10) * 10) + " from " + str(_[0]) + "to" + str(_[1]) +
+                   "so we have " + str(state[0]) + "\n")
+        if done:
+            break
+
+    fout.write(str("**********************\ntotal_reward in this episode is:" + str(total_reward)
+                   + "\nand make profit " + str(fund - 100) + "\n*******************\n"))
+    fout.close()
+    print 'episode: ', episode, 'evaluation total reward:', total_reward
 def main():
+    time = 20
+    use = 10
     sockNum = "600028"
     stockData.download(sockNum)
-    env = myEnv.OneStock(sockNum,3,70)
+    env = myEnv.OneStock(sockNum,3,time)
     agent = DQN(env)
 
     for episode in xrange(EPISODE):
-        state = env.reset(50)
+        state = env.reset(time)
         print "ep",episode,"\n"
         for step in xrange(STEP):
             action = agent.egreedy_action(state)
@@ -113,35 +153,8 @@ def main():
                 break
 
         if (episode+1) % 50 == 0:
-            fout = open("record"+sockNum,"a")
-            total_reward = 0
-
-            state = env.reset(0,70)
-
-            fout.write(str(episode)+":\n============================\n")
-            fund = 100.0
-            for j in range(STEP):
-                #env.render()
-                action = agent.action(state)
-                last = state[0]+(action-10)*10
-                if action < 10:
-                    last = state[0] + (action - 10) / 10.0 * state[0]
-
-                else:
-                    last = state[0] + (action - 10) / 10.0 * (100 - state[0])
-                fund = (100 - last)*fund + last*fund * env.y_[env.index] / env.y_[env.index+1]
-                fund /= 100
-                state,reward,done,_=env.step(action)
-                total_reward += reward
-                fout.write(str(reward)+" with "+str((action-10)*10)+" from "+str(_[0])+"to"+str(_[1])+
-                           "so we have "+str(state[0])+"\n")
-                if done:
-                    break
-
-            fout.write(str("**********************\ntotal_reward in this episode is:"+str(total_reward)
-                           +"\nand make profit "+str(fund-100)+"\n*******************\n"))
-            fout.close()
-            print 'episode: ',episode,'evaluation total reward:',total_reward
+            test(sockNum,env,episode,agent,time,use,True)
+            test(sockNum, env, episode, agent, use, 0, False)
 
 if __name__ == '__main__':
   main()
