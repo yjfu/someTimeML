@@ -1,4 +1,4 @@
-import gym
+
 import tensorflow as tf
 import numpy as np
 from collections import deque
@@ -13,7 +13,7 @@ FINAL_EPSILON = 0.01
 REPLAY_SIZE = 10000
 BATCH_SIZE = 32
 TEST=10
-EPISODE = 10000
+EPISODE = 2000
 STEP = 300
 
 class DQN():
@@ -35,15 +35,31 @@ class DQN():
     def bias_variable(self,shape):
         initial = tf.constant(0.01,shape=shape)
         return tf.Variable(initial)
+    def add_Layer(self,ninput,noutput,inlay):
+        wh = self.weight_variable([ninput, noutput])
+        bh = self.bias_variable([noutput])
+        ret = tf.nn.relu(tf.matmul(inlay,wh)+bh)
+        return ret
     def create_Q_network(self):
-        w1 = self.weight_variable([self.state_dim,20])
-        b1 = self.bias_variable([20])
-        w2 = self.weight_variable([20,self.action_dim])
-        b2 = self.bias_variable([self.action_dim])
-
+        n_node = 14
+        n_node2 = 14
         self.state_input = tf.placeholder("float",[None,self.state_dim])
-        h_layer = tf.nn.relu(tf.matmul(self.state_input,w1)+b1)
-        self.Q_value=tf.matmul(h_layer,w2)+b2
+        l1 = self.add_Layer(self.state_dim,n_node,self.state_input)
+        l2 = self.add_Layer(n_node,n_node2,l1)
+        l3 = self.add_Layer(n_node2,n_node2,l2)
+        """
+        w1 = self.weight_variable([self.state_dim,n_node])
+        b1 = self.bias_variable([n_node])
+        wh = self.weight_variable([n_node,n_node])
+        bh = self.bias_variable([n_node])
+        """
+        w = self.weight_variable([n_node, self.action_dim])
+        b = self.bias_variable([self.action_dim])
+
+        #h_layer = tf.nn.relu(tf.matmul(self.state_input,w1)+b1)
+        #h_layer2 = tf.nn.relu(tf.matmul(h_layer,wh)+bh)
+        #self.Q_value=tf.matmul(h_layer2,w2)+b2
+        self.Q_value = tf.matmul(l3,w)+b
     def create_training_method(self):
         self.action_input = tf.placeholder("float",[None,self.action_dim])
         self.y_input = tf.placeholder("float",[None])
@@ -86,7 +102,7 @@ class DQN():
             if reward_batch[i]<0:
                 reward_batch[i] = reward_batch[i]*0.1
             else :
-                reward_batch[i] = reward_batch[i]/state_batch[i][0]*90
+                reward_batch[i] = reward_batch[i]/(state_batch[i][0]+0.1)*90
             if done:
                 y_batch.append(reward_batch[i])
             else:
@@ -110,10 +126,12 @@ def test(sockNum,env,episode,agent,time,use,is_test):
         print "use:\n"
     fout.write(str(episode) + ":\n============================\n")
     fund = 100.0
+    change = (env.y_[use]-env.y_[time])/env.y_[time]*100
+    reward = 0.0
     for j in range(STEP):
         # env.render()
         action = agent.action(state)
-        last = state[0] + (action - 10) * 10
+        last = 10
         if action < 10:
             last = state[0] + (action - 10) / 10.0 * state[0]
 
@@ -131,18 +149,24 @@ def test(sockNum,env,episode,agent,time,use,is_test):
     fout.write(str("**********************\ntotal_reward in this episode is:" + str(total_reward)
                    + "\nand make profit " + str(fund - 100) + "\n*******************\n"))
     fout.close()
-    print 'episode: ', episode, 'evaluation total reward:', total_reward
-def main():
+
+    print '\t\tepisode: ', episode, 'evaluation total reward:', total_reward,"\n"
+    print '\t\t and create profit by',fund - 100,'\n'
+    print '\t\twith the Stock changed by ', change, "%\n\n"
+    return fund-100,reward
+def main(stockNum):
+
     time = 20
     use = 10
-    sockNum = "600028"
-    stockData.download(sockNum)
-    env = myEnv.OneStock(sockNum,3,time)
-    agent = DQN(env)
 
+    stockData.download(stockNum)
+    env = myEnv.OneStock(stockNum,3,use)
+    agent = DQN(env)
+    pl = 0.0
+    rl = 0.0
     for episode in xrange(EPISODE):
-        state = env.reset(time)
-        print "ep",episode,"\n"
+        state = env.reset(use)
+        #print "ep",episode,"\n"
         for step in xrange(STEP):
             action = agent.egreedy_action(state)
             next_state, reward, done, _ = env.step(action)
@@ -152,9 +176,16 @@ def main():
             if done:
                 break
 
-        if (episode+1) % 50 == 0:
-            test(sockNum,env,episode,agent,time,use,True)
-            test(sockNum, env, episode, agent, use, 0, False)
+        if episode %2 == 0:
+            test(stockNum,env,episode,agent,time,use,True)
+            p,r = test(stockNum, env, episode, agent, use, 0, False)
+            small = 0.000001
+
+            if (p-pl)*(p-pl)<small and (r-rl)*(r-rl)<small and episode>200:
+                break
+            else :
+                pl = p
+                rl = r
 
 if __name__ == '__main__':
-  main()
+  main("600028")

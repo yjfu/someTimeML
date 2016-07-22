@@ -1,5 +1,6 @@
 
 import numpy as np
+import DQN
 from gym import spaces
 import tensorflow as tf
 #return data,y_
@@ -17,6 +18,9 @@ def read_data(fileName, labelNum):
             b.append(float(a[i]))
         for i in range(labelNum+1, a.__len__()):
             b.append(float(a[i]))
+        for i in [3,9,10,11]:
+            while b[i]>b[0]*5:
+                b[i]/=10
         y_.append(float(a[labelNum]))
         data.append(b)
         buff = rf.readline()
@@ -33,7 +37,7 @@ class OneStock():
                                             np.array([100, 60, 60, 60, 500000, 10, 100,60, 60, 60, 400000, 400000, 400000, 30]))
         self.action_space = spaces.Discrete(21)
         if start == 0:
-            self.index = self.data.__len__()-1
+            self.index = self.data.__len__()-1 if self.data.__len__()-1<DQN.STEP else DQN.STEP
         else:
             self.index = start
         self.state = [10.0]+self.data[self.index]
