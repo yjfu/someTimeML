@@ -14,7 +14,7 @@ REPLAY_SIZE = 10000
 BATCH_SIZE = 32
 TEST=10
 EPISODE = 2000
-STEP = 300
+STEP = 1000
 
 class DQN():
     def __init__(self,env):
@@ -41,31 +41,32 @@ class DQN():
         ret = tf.nn.relu(tf.matmul(inlay,wh)+bh)
         return ret
     def create_Q_network(self):
-        n_node = 14
-        n_node2 = 14
+        n_node = 12
+        n_node2 = 12
         self.state_input = tf.placeholder("float",[None,self.state_dim])
         l1 = self.add_Layer(self.state_dim,n_node,self.state_input)
         l2 = self.add_Layer(n_node,n_node2,l1)
         l3 = self.add_Layer(n_node2,n_node2,l2)
+        l4 = self.add_Layer(n_node2,n_node2,l3)
         """
         w1 = self.weight_variable([self.state_dim,n_node])
         b1 = self.bias_variable([n_node])
         wh = self.weight_variable([n_node,n_node])
         bh = self.bias_variable([n_node])
         """
-        w = self.weight_variable([n_node, self.action_dim])
-        b = self.bias_variable([self.action_dim])
+        self.w = self.weight_variable([n_node2, self.action_dim])
+        self.b = self.bias_variable([self.action_dim])
 
         #h_layer = tf.nn.relu(tf.matmul(self.state_input,w1)+b1)
         #h_layer2 = tf.nn.relu(tf.matmul(h_layer,wh)+bh)
         #self.Q_value=tf.matmul(h_layer2,w2)+b2
-        self.Q_value = tf.matmul(l3,w)+b
+        self.Q_value = tf.matmul(l4,self.w)+self.b
     def create_training_method(self):
         self.action_input = tf.placeholder("float",[None,self.action_dim])
         self.y_input = tf.placeholder("float",[None])
         Q_action = tf.reduce_sum(tf.mul(self.Q_value,self.action_input),reduction_indices=1)
         self.cost = tf.reduce_mean(tf.square(self.y_input - Q_action))
-        self.optimizer = tf.train.AdamOptimizer(0.0001).minimize(self.cost)
+        self.optimizer = tf.train.AdamOptimizer(0.002).minimize(self.cost)
     def perceive(self,state,action,reward,next_state,done):
         one_hot_action = np.zeros(self.action_dim)
         one_hot_action[action] = 1
@@ -77,7 +78,7 @@ class DQN():
             self.train_Q_network()
     def egreedy_action(self,state):
         Q_value = self.Q_value.eval(feed_dict={self.state_input:[state]})[0]
-        self.epsilon -= (INITIAL_EPSILON-FINAL_EPSILON)/10000
+        self.epsilon -= (INITIAL_EPSILON-FINAL_EPSILON)/100000
         if random.random()<=self.epsilon:
             return random.randint(0,self.action_dim-1)
         else:
@@ -99,10 +100,12 @@ class DQN():
         Q_value_batch = self.Q_value.eval(feed_dict={self.state_input:next_state_batch})
         for i in range(0,BATCH_SIZE):
             done = minibatch[i][4]
+            '''
             if reward_batch[i]<0:
                 reward_batch[i] = reward_batch[i]*0.1
             else :
                 reward_batch[i] = reward_batch[i]/(state_batch[i][0]+0.1)*90
+            '''
             if done:
                 y_batch.append(reward_batch[i])
             else:
@@ -113,6 +116,8 @@ class DQN():
             self.action_input:action_batch,
             self.state_input:state_batch
         })
+        print self.w.eval()
+
 def test(sockNum,env,episode,agent,time,use,is_test):
     fout = open("record" + sockNum, "a")
     total_reward = 0
@@ -153,11 +158,11 @@ def test(sockNum,env,episode,agent,time,use,is_test):
     print '\t\tepisode: ', episode, 'evaluation total reward:', total_reward,"\n"
     print '\t\t and create profit by',fund - 100,'\n'
     print '\t\twith the Stock changed by ', change, "%\n\n"
-    return fund-100,reward
+    return fund-100,reward,change
 def main(stockNum):
 
-    time = 20
-    use = 10
+    time = 0
+    use = 50
 
     stockData.download(stockNum)
     env = myEnv.OneStock(stockNum,3,use)
@@ -176,16 +181,18 @@ def main(stockNum):
             if done:
                 break
 
-        if episode %2 == 0:
-            test(stockNum,env,episode,agent,time,use,True)
-            p,r = test(stockNum, env, episode, agent, use, 0, False)
-            small = 0.000001
+        if episode %10 == 0:
+            p, r, c = test(stockNum,env,episode,agent,time,use,True)
+            test(stockNum, env, episode, agent, use, 0, False)
+            small = 0.0001
 
-            if (p-pl)*(p-pl)<small and (r-rl)*(r-rl)<small and episode>200:
+'''
+            if (p-pl)*(p-pl)<small and (r-rl)*(r-rl)<small and episode>500:
                 break
             else :
                 pl = p
                 rl = r
+'''
 
 if __name__ == '__main__':
   main("600028")

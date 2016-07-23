@@ -1,0 +1,4318 @@
+test:
+0:
+============================
+-0.11 with -90 from 12.56to12.45so we have 0.991328858419
+-0.0366791677615 with -90 from 12.45to12.08so we have 0.0961896018085
+-0.000384758407234 with -90 from 12.08to12.04so we have 0.0095871123729
+0.000172568022712 with -90 from 12.04to12.22so we have 0.000973043990077
+-1.84878358115e-05 with -90 from 12.22to12.03so we have 9.57914842694e-05
+9.57914842694e-07 with -90 from 12.03to12.13so we have 9.65877558822e-06
+7.72702047057e-08 with -90 from 12.13to12.21so we have 9.72247732272e-07
+6.8057341259e-09 with -90 from 12.21to12.28so we have 9.7782163409e-08
+2.34677192182e-09 with -90 from 12.28to12.52so we have 9.96932154624e-09
+-1.69478466286e-10 with -90 from 12.52to12.35so we have 9.83395535911e-10
+**********************
+total_reward in this episode is:-0.146908801814
+and make profit -0.0117227635963
+*******************
+use:
+0:
+============================
+0.01 with -90 from 12.35to12.36so we have 1.00080161294
+-0.0230184370977 with -90 from 12.36to12.13so we have 0.0982196573729
+0.000785757258983 with -90 from 12.13to12.21so we have 0.00988673734267
+1.97734746853e-05 with -90 from 12.21to12.23so we have 0.000990293167426
+-1.08932248417e-05 with -90 from 12.23to12.12so we have 9.81386205732e-05
+2.74788137605e-06 with -90 from 12.12to12.4so we have 1.00405849204e-05
+3.71501642054e-07 with -90 from 12.4to12.77so we have 1.03401830157e-06
+-1.55102745236e-08 with -90 from 12.77to12.62so we have 1.02187243273e-07
+-1.22624691928e-09 with -90 from 12.62to12.5so we have 1.01215573765e-08
+5.66807213084e-10 with -90 from 12.5to13.06so we have 1.0575003147e-09
+**********************
+total_reward in this episode is:-0.0122206963755
+and make profit -0.000986870092305
+*******************
+test:
+4:
+============================
+-2.09 with 10 from 12.56to12.45so we have 18.8649903103
+-0.698004641481 with -90 from 12.45to12.08so we have 1.83146120314
+-0.465932603313 with 10 from 12.08to12.04so we have 11.6142241767
+3.68150431662 with 10 from 12.04to12.22so we have 20.6952939663
+-0.39321058536 with -90 from 12.22to12.03so we have 2.03800755343
+1.18342067981 with 10 from 12.03to12.13so we have 11.9208524213
+1.65830137433 with 10 from 12.13to12.21so we have 20.8369915203
+0.145858940642 with -90 from 12.21to12.28so we have 2.09539469831
+2.85260525483 with 10 from 12.28to12.52so we have 12.0900672286
+-3.54978028598 with 10 from 12.52to12.35so we have 20.6560977101
+**********************
+total_reward in this episode is:2.32476245011
+and make profit 0.20712200752
+*******************
+use:
+4:
+============================
+0.19 with 10 from 12.35to12.36so we have 19.0124596216
+-0.437286571297 with -90 from 12.36to12.13so we have 1.86652715158
+0.934389954914 with 10 from 12.13to12.21so we have 11.7478562309
+0.411461412155 with 10 from 12.21to12.23so we have 20.5998274523
+-0.226598101975 with -90 from 12.23to12.12so we have 2.04183300302
+3.31454191676 with 10 from 12.12to12.4so we have 12.0780959374
+7.72200594715 with 10 from 12.4to12.77so we have 21.3600109109
+-0.320400163664 with -90 from 12.77to12.62so we have 2.11144078538
+-1.42803560482 with 10 from 12.62to12.5so we have 11.8004931917
+11.5474485686 with 10 from 12.5to13.06so we have 21.3470367113
+**********************
+total_reward in this episode is:21.7075273579
+and make profit 1.76267420414
+*******************
+test:
+8:
+============================
+-2.09 with 10 from 12.56to12.45so we have 18.8649903103
+-9.98204177333 with 10 from 12.45to12.08so we have 26.3882943955
+-1.34997859824 with 10 from 12.08to12.04so we have 33.6753450348
+7.25540589563 with 10 from 12.04to12.22so we have 40.665366057
+-8.85377759574 with 10 from 12.22to12.03so we have 46.2090972997
+5.15881875698 with 10 from 12.03to12.13so we have 51.7949052315
+4.52923317667 with 10 from 12.13to12.21so we have 56.7768062361
+4.27693879288 with 10 from 12.21to12.28so we have 61.2349125954
+21.2089137069 with 70 from 12.28to12.52so we have 88.5679184297
+-16.4169638399 with 70 from 12.52to12.35so we have 96.5248067413
+**********************
+total_reward in this episode is:3.7365485218
+and make profit 0.333539502864
+*******************
+use:
+8:
+============================
+0.19 with 10 from 12.35to12.36so we have 19.0124596216
+-6.23557914167 with 10 from 12.36to12.13so we have 26.7416275923
+2.72539718665 with 10 from 12.13to12.21so we have 34.2152715222
+0.8158748874 with 10 from 12.21to12.23so we have 40.8332797027
+-5.14249469057 with 10 from 12.23to12.12so we have 46.5250994084
+14.5243250509 with 10 from 12.12to12.4so we have 52.4425073568
+21.1633549498 with 10 from 12.4to12.77so we have 57.9165049622
+-9.3187281699 with 10 from 12.77to12.62so we have 61.8464341774
+-10.6264716304 with 70 from 12.62to12.5so we have 88.4567319885
+54.0607309741 with 70 from 12.5to13.06so we have 96.6805798216
+**********************
+total_reward in this episode is:62.1564094163
+and make profit 5.04197159628
+*******************
+test:
+12:
+============================
+-2.09 with 10 from 12.56to12.45so we have 18.8649903103
+-9.98204177333 with 10 from 12.45to12.08so we have 26.3882943955
+-1.34997859824 with 10 from 12.08to12.04so we have 33.6753450348
+7.25540589563 with 10 from 12.04to12.22so we have 40.665366057
+-8.85377759574 with 10 from 12.22to12.03so we have 46.2090972997
+5.15881875698 with 10 from 12.03to12.13so we have 51.7949052315
+4.52923317667 with 10 from 12.13to12.21so we have 56.7768062361
+6.09231293096 with 70 from 12.21to12.28so we have 87.0974207003
+23.0710142904 with 70 from 12.28to12.52so we have 96.200607192
+-16.8062309668 with 70 from 12.52to12.35so we have 98.8446736257
+**********************
+total_reward in this episode is:7.02475611655
+and make profit 0.600271307463
+*******************
+use:
+12:
+============================
+0.19 with 10 from 12.35to12.36so we have 19.0124596216
+-6.23557914167 with 10 from 12.36to12.13so we have 26.7416275923
+2.72539718665 with 10 from 12.13to12.21so we have 34.2152715222
+0.8158748874 with 10 from 12.21to12.23so we have 40.8332797027
+-5.14249469057 with 10 from 12.23to12.12so we have 46.5250994084
+14.5243250509 with 10 from 12.12to12.4so we have 52.4425073568
+31.7211183166 with 70 from 12.4to12.77so we have 86.0886266584
+-14.3739881996 with 70 from 12.77to12.62so we have 95.7790770368
+-11.8480467733 with 70 from 12.62to12.5so we have 98.7217222436
+55.7852493369 with 70 from 12.5to13.06so we have 99.6328996986
+**********************
+total_reward in this episode is:68.1618559733
+and make profit 5.53532304165
+*******************
+test:
+16:
+============================
+-2.09 with 10 from 12.56to12.45so we have 18.8649903103
+-9.98204177333 with 10 from 12.45to12.08so we have 26.3882943955
+-3.11665953275 with 70 from 12.08to12.04so we have 77.8593651227
+16.8044057166 with 70 from 12.04to12.22so we have 93.4492394685
+-18.6266066497 with 70 from 12.22to12.03so we have 98.0043527436
+9.94013058231 with 70 from 12.03to12.13so we have 99.4062121644
+7.98574909195 with 70 from 12.13to12.21so we have 99.8230287343
+6.99628360342 with 70 from 12.21to12.28so we have 99.9472110987
+23.9961991991 with 70 from 12.28to12.52so we have 99.9844668608
+-16.9992078099 with 70 from 12.52to12.35so we have 99.9952759163
+**********************
+total_reward in this episode is:14.9082524277
+and make profit 1.24649196118
+*******************
+use:
+16:
+============================
+0.19 with 10 from 12.35to12.36so we have 19.0124596216
+-17.4118597139 with 70 from 12.36to12.13so we have 75.3565794877
+7.40855790771 with 70 from 12.13to12.21so we have 92.6518536221
+1.95591112173 with 70 from 12.21to12.23so we have 97.7990817218
+-10.9273696968 with 70 from 12.23to12.12so we have 99.3337718416
+27.9440368347 with 70 from 12.12to12.4so we have 99.8046358939
+36.9783145842 with 70 from 12.4to12.77so we have 99.9430879549
+-14.997438958 with 70 from 12.77to12.62so we have 99.9827234863
+-11.9993780455 with 70 from 12.62to12.5so we have 99.9947672921
+55.9991209051 with 70 from 12.5to13.06so we have 99.9984974986
+**********************
+total_reward in this episode is:75.1398949393
+and make profit 6.11125223164
+*******************
+test:
+20:
+============================
+-3.08 with 20 from 12.56to12.45so we have 27.8230054592
+-28.988353606 with 70 from 12.45to12.08so we have 77.8307160619
+-3.73396859274 with 70 from 12.08to12.04so we have 93.3285932762
+17.6397440369 with 70 from 12.04to12.22so we have 98.0274773145
+-18.8875662069 with 70 from 12.22to12.03so we have 99.3989532514
+9.98196859754 with 70 from 12.03to12.13so we have 99.8211698301
+7.99570807592 with 70 from 12.13to12.21so we have 99.9467022706
+6.99888074768 with 70 from 12.21to12.28so we have 99.984101811
+23.9988553304 with 70 from 12.28to12.52so we have 99.9953219663
+-16.9997614203 with 70 from 12.52to12.35so we have 99.998577272
+**********************
+total_reward in this episode is:-5.07449303747
+and make profit -0.39023811035
+*******************
+use:
+20:
+============================
+0.28 with 20 from 12.35to12.36so we have 28.0163201865
+-18.0331260929 with 70 from 12.36to12.13so we have 78.0851605683
+7.47404385364 with 70 from 12.13to12.21so we have 93.4658093637
+1.96079485618 with 70 from 12.21to12.23so we have 98.0428857244
+-10.9354152289 with 70 from 12.23to12.12so we have 99.4075685102
+27.9502357549 with 70 from 12.12to12.4so we have 99.8262768267
+36.9807167278 with 70 from 12.4to12.77so we have 99.9493923286
+-14.9977226548 with 70 from 12.77to12.62so we have 99.9846372711
+-11.9994469418 with 70 from 12.62to12.5so we have 99.9953469387
+55.9992182857 with 70 from 12.5to13.06so we have 99.9986639364
+**********************
+total_reward in this episode is:74.6792985598
+and make profit 6.07100063416
+*******************
+test:
+24:
+============================
+-3.08 with 20 from 12.56to12.45so we have 27.8230054592
+-28.988353606 with 70 from 12.45to12.08so we have 77.8307160619
+-3.73396859274 with 70 from 12.08to12.04so we have 93.3285932762
+17.0393174318 with 20 from 12.04to12.22so we have 94.7373529545
+-16.2000873552 with -10 from 12.22to12.03so we have 85.0656323393
+9.55196897018 with 70 from 12.03to12.13so we have 95.5549836818
+6.87995882509 with -10 from 12.13to12.21so we have 86.0784463326
+6.70764737298 with 70 from 12.21to12.28so we have 95.846352249
+20.7028120858 with -10 from 12.28to12.52so we have 86.4894902685
+-16.3109640037 with 70 from 12.52to12.35so we have 95.8933458926
+**********************
+total_reward in this episode is:-7.43166887182
+and make profit -0.573831179871
+*******************
+use:
+24:
+============================
+0.73 with 70 from 12.35to12.36so we have 73.0159500862
+-21.1381005559 with 70 from 12.36to12.13so we have 91.7639315937
+6.60700307475 with -10 from 12.13to12.21so we have 82.6818673344
+1.72290987735 with 20 from 12.21to12.23so we have 86.1650159238
+-10.5434455255 with 70 from 12.23to12.12so we have 95.8134123331
+24.144979908 with -10 from 12.12to12.4so we have 86.500992927
+35.5016102149 with 70 from 12.4to12.77so we have 96.0630150594
+-12.968507033 with -10 from 12.77to12.62so we have 86.3177643212
+-11.5074395156 with 70 from 12.62to12.5so we have 95.8575567807
+48.3122086175 with -10 from 12.5to13.06so we have 86.7826486512
+**********************
+total_reward in this episode is:60.8612190624
+and make profit 4.92048629737
+*******************
+test:
+28:
+============================
+-8.03 with 70 from 12.56to12.45so we have 72.8262698623
+-35.9945719849 with 90 from 12.45to12.08so we have 97.2017252166
+-3.98880690087 with 90 from 12.08to12.04so we have 99.7192454723
+17.9949464185 with 90 from 12.04to12.22so we have 99.9723379829
+-18.9994744217 with 90 from 12.22to12.03so we have 99.9971901105
+9.99997190111 with 90 from 12.03to12.13so we have 99.9997213275
+7.19997993558 with -10 from 12.13to12.21so we have 90.0587572314
+6.93041130062 with 90 from 12.21to12.28so we have 99.0114865379
+23.9762756769 with 90 from 12.28to12.52so we have 99.9030417305
+-15.2851653848 with -10 from 12.52to12.35so we have 89.788064132
+**********************
+total_reward in this episode is:-16.1964334595
+and make profit -1.29004113491
+*******************
+use:
+28:
+============================
+0.73 with 70 from 12.35to12.36so we have 73.0159500862
+-22.379366852 with 90 from 12.36to12.13so we have 97.2518359706
+7.97801468776 with 90 from 12.13to12.21so we have 99.7269792799
+1.99945395856 with 90 from 12.21to12.23so we have 99.9727425635
+-10.9997001682 with 90 from 12.23to12.12so we have 99.9972495184
+27.9999229865 with 90 from 12.12to12.4so we have 99.9997311626
+33.2999104771 with -10 from 12.4to12.77so we have 90.2612888601
+-14.8539193329 with 90 from 12.77to12.62so we have 99.0146676113
+-11.9881760113 with 90 from 12.62to12.5so we have 99.900521783
+55.9944292198 with 90 from 12.5to13.06so we have 99.9904786905
+**********************
+total_reward in this episode is:67.7805689654
+and make profit 5.48431595697
+*******************
+test:
+32:
+============================
+-8.03 with 70 from 12.56to12.45so we have 72.8262698623
+-35.9945719849 with 90 from 12.45to12.08so we have 97.2017252166
+-3.98880690087 with 90 from 12.08to12.04so we have 99.7192454723
+17.9949464185 with 90 from 12.04to12.22so we have 99.9723379829
+-18.9994744217 with 90 from 12.22to12.03so we have 99.9971901105
+9.99997190111 with 90 from 12.03to12.13so we have 99.9997213275
+7.99999777062 with 90 from 12.13to12.21so we have 99.9999723153
+6.99999980621 with 90 from 12.21to12.28so we have 99.9999972473
+23.9999999339 with 90 from 12.28to12.52so we have 99.99999973
+-16.9999999954 with 90 from 12.52to12.35so we have 99.9999999726
+**********************
+total_reward in this episode is:-17.0179374725
+and make profit -1.35482472027
+*******************
+use:
+32:
+============================
+0.73 with 70 from 12.35to12.36so we have 73.0159500862
+-22.379366852 with 90 from 12.36to12.13so we have 97.2518359706
+7.97801468776 with 90 from 12.13to12.21so we have 99.7269792799
+1.99945395856 with 90 from 12.21to12.23so we have 99.9727425635
+-10.9997001682 with 90 from 12.23to12.12so we have 99.9972495184
+27.9999229865 with 90 from 12.12to12.4so we have 99.9997311626
+36.999990053 with 90 from 12.4to12.77so we have 99.9999738952
+-14.9999996084 with 90 from 12.77to12.62so we have 99.9999973585
+-11.9999999683 with 90 from 12.62to12.5so we have 99.9999997333
+55.9999999851 with 90 from 12.5to13.06so we have 99.9999999745
+**********************
+total_reward in this episode is:71.328315074
+and make profit 5.77804905353
+*******************
+test:
+36:
+============================
+-8.03 with 70 from 12.56to12.45so we have 72.8262698623
+-35.9945719849 with 90 from 12.45to12.08so we have 97.2017252166
+-3.4992621078 with -10 from 12.08to12.04so we have 87.4451846572
+17.7740133238 with 90 from 12.04to12.22so we have 98.7627828463
+-16.8884358667 with -10 from 12.22to12.03so we have 88.7307600144
+9.88730760014 with 90 from 12.03to12.13so we have 98.8822625468
+7.11952290337 with -10 from 12.13to12.21so we have 89.0582572223
+5.610670205 with -10 from 12.21to12.28so we have 80.243216754
+23.5258372021 with 90 from 12.28to12.52so we have 98.0614599312
+-15.0034033695 with -10 from 12.52to12.35so we have 88.1128638594
+**********************
+total_reward in this episode is:-15.4983220944
+and make profit -1.2295371887
+*******************
+use:
+36:
+============================
+0.73 with 70 from 12.35to12.36so we have 73.0159500862
+-22.379366852 with 90 from 12.36to12.13so we have 97.2518359706
+7.00213218988 with -10 from 12.13to12.21so we have 87.5982424361
+1.97519648487 with 90 from 12.21to12.23so we have 98.7618272203
+-9.77742089481 with -10 from 12.23to12.12so we have 88.7960733564
+27.686290054 with 90 from 12.12to12.4so we have 98.904629405
+32.9352415919 with -10 from 12.4to12.77so we have 89.2984080109
+-12.0552850815 with -10 from 12.77to12.62so we have 80.181474038
+-11.7621776885 with 90 from 12.62to12.5so we have 97.9995022293
+49.3917491236 with -10 from 12.5to13.06so we have 88.6481040056
+**********************
+total_reward in this episode is:63.7463589274
+and make profit 5.16584980511
+*******************
+test:
+40:
+============================
+-8.03 with 70 from 12.56to12.45so we have 72.8262698623
+-32.9782879396 with 60 from 12.45to12.08so we have 88.8347564454
+-3.82135610313 with 60 from 12.08to12.04so we have 95.5197298068
+17.6774205461 with 60 from 12.04to12.22so we have 98.2338233573
+-7.46577057516 with -60 from 12.22to12.03so we have 38.9203652349
+0.389203652349 with -90 from 12.03to12.13so we have 3.92312004185
+5.694154881 with 70 from 12.13to12.21so we have 71.3116072012
+6.19672500163 with 60 from 12.21to12.28so we have 88.5825876508
+22.9039284145 with 60 from 12.28to12.52so we have 95.5166557411
+-16.6951325904 with 60 from 12.52to12.35so we have 98.1824253558
+**********************
+total_reward in this episode is:-16.1291147127
+and make profit -1.27741873421
+*******************
+use:
+40:
+============================
+0.73 with 70 from 12.35to12.36so we have 73.0159500862
+-20.5174674079 with 60 from 12.36to12.13so we have 89.0241826438
+7.6487738446 with 60 from 12.13to12.21so we have 95.6371835246
+1.9650974682 with 60 from 12.21to12.23so we have 98.2576775322
+-4.32333781142 with -60 from 12.23to12.12so we have 39.0877445557
+1.09445684756 with -90 from 12.12to12.4so we have 3.99546819916
+26.3434969701 with 70 from 12.4to12.77so we have 71.7977895292
+-13.3078673718 with 60 from 12.77to12.62so we have 88.6003174851
+-11.4528152393 with 60 from 12.62to12.5so we have 95.3983665681
+54.9692341113 with 60 from 12.5to13.06so we have 98.2368804905
+**********************
+total_reward in this episode is:43.1495714113
+and make profit 3.4142647434
+*******************
+test:
+44:
+============================
+-8.03 with 70 from 12.56to12.45so we have 72.8262698623
+-32.9782879396 with 60 from 12.45to12.08so we have 88.8347564454
+-0.355339025782 with -90 from 12.08to12.04so we have 8.85666539311
+13.0782599312 with 70 from 12.04to12.22so we have 72.9508170971
+-16.9442620994 with 60 from 12.22to12.03so we have 89.0281916536
+0.890281916536 with -90 from 12.03to12.13so we have 8.97018591295
+5.81528446191 with 70 from 12.13to12.21so we have 72.8213538437
+6.23899790762 with 60 from 12.21to12.28so we have 89.1838095062
+2.14041142815 with -90 from 12.28to12.52so we have 9.07686053271
+-12.3629198872 with 70 from 12.52to12.35so we have 72.4510247944
+**********************
+total_reward in this episode is:-42.5075733065
+and make profit -3.36951993223
+*******************
+use:
+44:
+============================
+0.73 with 70 from 12.35to12.36so we have 73.0159500862
+-20.5174674079 with 60 from 12.36to12.13so we have 89.0241826438
+0.71219346115 with -90 from 12.13to12.21so we have 8.95587336056
+1.45373524016 with 70 from 12.21to12.23so we have 72.7192427602
+-9.79964668145 with 60 from 12.23to12.12so we have 88.9995527901
+2.49198747812 with -90 from 12.12to12.4so we have 9.08688131314
+26.9086438258 with 70 from 12.4to12.77so we have 73.3053521133
+-13.3983211268 with 60 from 12.77to12.62so we have 89.2089205258
+-1.07050704631 with -90 from 12.62to12.5so we have 8.84356748576
+40.6857193376 with 70 from 12.5to13.06so we have 73.5151155074
+**********************
+total_reward in this episode is:28.1963370803
+and make profit 2.19779419819
+*******************
+test:
+48:
+============================
+-8.03 with 70 from 12.56to12.45so we have 72.8262698623
+-0.0 with -100 from 12.45to12.08so we have 0.0
+-2.8 with 70 from 12.08to12.04so we have 69.9303020246
+0.0 with -100 from 12.04to12.22so we have 0.0
+-13.3 with 70 from 12.22to12.03so we have 69.6698932738
+0.0 with -100 from 12.03to12.13so we have 0.0
+5.6 with 70 from 12.13to12.21so we have 70.1378631216
+0.0 with -100 from 12.21to12.28so we have 0.0
+16.8 with 70 from 12.28to12.52so we have 70.4048843188
+-0.0 with -100 from 12.52to12.35so we have 0.0
+**********************
+total_reward in this episode is:-1.73
+and make profit -0.148269308948
+*******************
+use:
+48:
+============================
+0.73 with 70 from 12.35to12.36so we have 73.0159500862
+-0.0 with -100 from 12.36to12.13so we have 0.0
+5.6 with 70 from 12.13to12.21so we have 70.1378631216
+0.0 with -100 from 12.21to12.23so we have 0.0
+-7.7 with 70 from 12.23to12.12so we have 69.8099234757
+0.0 with -100 from 12.12to12.4so we have 0.0
+25.9 with 70 from 12.4to12.77so we have 70.6137925587
+-0.0 with -100 from 12.77to12.62so we have 0.0
+-8.4 with 70 from 12.62to12.5so we have 69.7989789407
+0.0 with -100 from 12.5to13.06so we have 0.0
+**********************
+total_reward in this episode is:16.13
+and make profit 1.29578856724
+*******************
+test:
+52:
+============================
+-8.03 with 70 from 12.56to12.45so we have 72.8262698623
+-0.0 with -100 from 12.45to12.08so we have 0.0
+-2.8 with 70 from 12.08to12.04so we have 69.9303020246
+0.0 with -100 from 12.04to12.22so we have 0.0
+-13.3 with 70 from 12.22to12.03so we have 69.6698932738
+0.0 with -100 from 12.03to12.13so we have 0.0
+5.6 with 70 from 12.13to12.21so we have 70.1378631216
+0.0 with -100 from 12.21to12.28so we have 0.0
+16.8 with 70 from 12.28to12.52so we have 70.4048843188
+-0.0 with -100 from 12.52to12.35so we have 0.0
+**********************
+total_reward in this episode is:-1.73
+and make profit -0.148269308948
+*******************
+use:
+52:
+============================
+0.73 with 70 from 12.35to12.36so we have 73.0159500862
+-0.0 with -100 from 12.36to12.13so we have 0.0
+5.6 with 70 from 12.13to12.21so we have 70.1378631216
+0.0 with -100 from 12.21to12.23so we have 0.0
+-7.7 with 70 from 12.23to12.12so we have 69.8099234757
+0.0 with -100 from 12.12to12.4so we have 0.0
+25.9 with 70 from 12.4to12.77so we have 70.6137925587
+-0.0 with -100 from 12.77to12.62so we have 0.0
+-8.4 with 70 from 12.62to12.5so we have 69.7989789407
+0.0 with -100 from 12.5to13.06so we have 0.0
+**********************
+total_reward in this episode is:16.13
+and make profit 1.29578856724
+*******************
+test:
+56:
+============================
+-8.03 with 70 from 12.56to12.45so we have 72.8262698623
+-0.0 with -100 from 12.45to12.08so we have 0.0
+-2.8 with 70 from 12.08to12.04so we have 69.9303020246
+0.0 with -100 from 12.04to12.22so we have 0.0
+-13.3 with 70 from 12.22to12.03so we have 69.6698932738
+0.0 with -100 from 12.03to12.13so we have 0.0
+5.6 with 70 from 12.13to12.21so we have 70.1378631216
+0.0 with -100 from 12.21to12.28so we have 0.0
+16.8 with 70 from 12.28to12.52so we have 70.4048843188
+-0.0 with -100 from 12.52to12.35so we have 0.0
+**********************
+total_reward in this episode is:-1.73
+and make profit -0.148269308948
+*******************
+use:
+56:
+============================
+0.73 with 70 from 12.35to12.36so we have 73.0159500862
+-0.0 with -100 from 12.36to12.13so we have 0.0
+5.6 with 70 from 12.13to12.21so we have 70.1378631216
+0.0 with -100 from 12.21to12.23so we have 0.0
+-7.7 with 70 from 12.23to12.12so we have 69.8099234757
+0.0 with -100 from 12.12to12.4so we have 0.0
+25.9 with 70 from 12.4to12.77so we have 70.6137925587
+-0.0 with -100 from 12.77to12.62so we have 0.0
+-8.4 with 70 from 12.62to12.5so we have 69.7989789407
+0.0 with -100 from 12.5to13.06so we have 0.0
+**********************
+total_reward in this episode is:16.13
+and make profit 1.29578856724
+*******************
+test:
+60:
+============================
+-8.03 with 70 from 12.56to12.45so we have 72.8262698623
+-0.0 with -100 from 12.45to12.08so we have 0.0
+-2.8 with 70 from 12.08to12.04so we have 69.9303020246
+0.0 with -100 from 12.04to12.22so we have 0.0
+-13.3 with 70 from 12.22to12.03so we have 69.6698932738
+0.0 with -100 from 12.03to12.13so we have 0.0
+5.6 with 70 from 12.13to12.21so we have 70.1378631216
+0.0 with -100 from 12.21to12.28so we have 0.0
+16.8 with 70 from 12.28to12.52so we have 70.4048843188
+-0.0 with -100 from 12.52to12.35so we have 0.0
+**********************
+total_reward in this episode is:-1.73
+and make profit -0.148269308948
+*******************
+use:
+60:
+============================
+0.73 with 70 from 12.35to12.36so we have 73.0159500862
+-0.0 with -100 from 12.36to12.13so we have 0.0
+5.6 with 70 from 12.13to12.21so we have 70.1378631216
+0.0 with -100 from 12.21to12.23so we have 0.0
+-7.7 with 70 from 12.23to12.12so we have 69.8099234757
+0.0 with -100 from 12.12to12.4so we have 0.0
+25.9 with 70 from 12.4to12.77so we have 70.6137925587
+-0.0 with -100 from 12.77to12.62so we have 0.0
+-8.4 with 70 from 12.62to12.5so we have 69.7989789407
+0.0 with -100 from 12.5to13.06so we have 0.0
+**********************
+total_reward in this episode is:16.13
+and make profit 1.29578856724
+*******************
+test:
+64:
+============================
+-8.03 with 70 from 12.56to12.45so we have 72.8262698623
+-0.0 with -100 from 12.45to12.08so we have 0.0
+-2.8 with 70 from 12.08to12.04so we have 69.9303020246
+0.0 with -100 from 12.04to12.22so we have 0.0
+-13.3 with 70 from 12.22to12.03so we have 69.6698932738
+0.0 with -100 from 12.03to12.13so we have 0.0
+5.6 with 70 from 12.13to12.21so we have 70.1378631216
+0.0 with -100 from 12.21to12.28so we have 0.0
+16.8 with 70 from 12.28to12.52so we have 70.4048843188
+-0.0 with -100 from 12.52to12.35so we have 0.0
+**********************
+total_reward in this episode is:-1.73
+and make profit -0.148269308948
+*******************
+use:
+64:
+============================
+0.73 with 70 from 12.35to12.36so we have 73.0159500862
+-0.0 with -100 from 12.36to12.13so we have 0.0
+5.6 with 70 from 12.13to12.21so we have 70.1378631216
+0.0 with -100 from 12.21to12.23so we have 0.0
+-7.7 with 70 from 12.23to12.12so we have 69.8099234757
+0.0 with -100 from 12.12to12.4so we have 0.0
+25.9 with 70 from 12.4to12.77so we have 70.6137925587
+-0.0 with -100 from 12.77to12.62so we have 0.0
+-8.4 with 70 from 12.62to12.5so we have 69.7989789407
+0.0 with -100 from 12.5to13.06so we have 0.0
+**********************
+total_reward in this episode is:16.13
+and make profit 1.29578856724
+*******************
+test:
+68:
+============================
+-8.03 with 70 from 12.56to12.45so we have 72.8262698623
+-0.0 with -100 from 12.45to12.08so we have 0.0
+-2.8 with 70 from 12.08to12.04so we have 69.9303020246
+0.0 with -100 from 12.04to12.22so we have 0.0
+-13.3 with 70 from 12.22to12.03so we have 69.6698932738
+0.0 with -100 from 12.03to12.13so we have 0.0
+5.6 with 70 from 12.13to12.21so we have 70.1378631216
+0.0 with -100 from 12.21to12.28so we have 0.0
+16.8 with 70 from 12.28to12.52so we have 70.4048843188
+-0.0 with -100 from 12.52to12.35so we have 0.0
+**********************
+total_reward in this episode is:-1.73
+and make profit -0.148269308948
+*******************
+use:
+68:
+============================
+0.73 with 70 from 12.35to12.36so we have 73.0159500862
+-0.0 with -100 from 12.36to12.13so we have 0.0
+5.6 with 70 from 12.13to12.21so we have 70.1378631216
+0.0 with -100 from 12.21to12.23so we have 0.0
+-7.7 with 70 from 12.23to12.12so we have 69.8099234757
+0.0 with -100 from 12.12to12.4so we have 0.0
+25.9 with 70 from 12.4to12.77so we have 70.6137925587
+-0.0 with -100 from 12.77to12.62so we have 0.0
+-8.4 with 70 from 12.62to12.5so we have 69.7989789407
+0.0 with -100 from 12.5to13.06so we have 0.0
+**********************
+total_reward in this episode is:16.13
+and make profit 1.29578856724
+*******************
+test:
+72:
+============================
+-8.03 with 70 from 12.56to12.45so we have 72.8262698623
+-0.0 with -100 from 12.45to12.08so we have 0.0
+-2.8 with 70 from 12.08to12.04so we have 69.9303020246
+0.0 with -100 from 12.04to12.22so we have 0.0
+-13.3 with 70 from 12.22to12.03so we have 69.6698932738
+0.0 with -100 from 12.03to12.13so we have 0.0
+5.6 with 70 from 12.13to12.21so we have 70.1378631216
+0.0 with -100 from 12.21to12.28so we have 0.0
+16.8 with 70 from 12.28to12.52so we have 70.4048843188
+-0.0 with -100 from 12.52to12.35so we have 0.0
+**********************
+total_reward in this episode is:-1.73
+and make profit -0.148269308948
+*******************
+use:
+72:
+============================
+0.73 with 70 from 12.35to12.36so we have 73.0159500862
+-0.0 with -100 from 12.36to12.13so we have 0.0
+5.6 with 70 from 12.13to12.21so we have 70.1378631216
+0.0 with -100 from 12.21to12.23so we have 0.0
+-7.7 with 70 from 12.23to12.12so we have 69.8099234757
+0.0 with -100 from 12.12to12.4so we have 0.0
+25.9 with 70 from 12.4to12.77so we have 70.6137925587
+-0.0 with -100 from 12.77to12.62so we have 0.0
+-8.4 with 70 from 12.62to12.5so we have 69.7989789407
+0.0 with -100 from 12.5to13.06so we have 0.0
+**********************
+total_reward in this episode is:16.13
+and make profit 1.29578856724
+*******************
+test:
+76:
+============================
+-8.03 with 70 from 12.56to12.45so we have 72.8262698623
+-0.0 with -100 from 12.45to12.08so we have 0.0
+-2.8 with 70 from 12.08to12.04so we have 69.9303020246
+0.0 with -100 from 12.04to12.22so we have 0.0
+-13.3 with 70 from 12.22to12.03so we have 69.6698932738
+0.0 with -100 from 12.03to12.13so we have 0.0
+5.6 with 70 from 12.13to12.21so we have 70.1378631216
+0.0 with -100 from 12.21to12.28so we have 0.0
+16.8 with 70 from 12.28to12.52so we have 70.4048843188
+-0.0 with -100 from 12.52to12.35so we have 0.0
+**********************
+total_reward in this episode is:-1.73
+and make profit -0.148269308948
+*******************
+use:
+76:
+============================
+0.73 with 70 from 12.35to12.36so we have 73.0159500862
+-0.0 with -100 from 12.36to12.13so we have 0.0
+5.6 with 70 from 12.13to12.21so we have 70.1378631216
+0.0 with -100 from 12.21to12.23so we have 0.0
+-7.7 with 70 from 12.23to12.12so we have 69.8099234757
+0.0 with -100 from 12.12to12.4so we have 0.0
+25.9 with 70 from 12.4to12.77so we have 70.6137925587
+-0.0 with -100 from 12.77to12.62so we have 0.0
+-8.4 with 70 from 12.62to12.5so we have 69.7989789407
+0.0 with -100 from 12.5to13.06so we have 0.0
+**********************
+total_reward in this episode is:16.13
+and make profit 1.29578856724
+*******************
+test:
+80:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+80:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+84:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+84:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+88:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+88:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+92:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+92:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+96:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+96:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+100:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+100:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+104:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+104:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+108:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+108:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+112:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+112:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+116:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+116:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+120:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+120:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+124:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+124:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+128:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+128:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+132:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+132:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+136:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+136:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+140:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+140:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+144:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+144:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+148:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+148:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+152:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+152:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+156:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+156:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+160:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+160:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+164:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+164:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+168:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+168:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+172:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+172:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+176:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+176:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+180:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+180:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+184:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+184:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+188:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+188:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+192:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+192:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+196:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+196:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+200:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+200:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+204:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+204:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+208:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+208:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+212:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+212:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+216:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+216:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+220:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+220:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+224:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+224:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+228:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+228:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+232:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+232:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+236:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+236:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+240:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+240:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+244:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+244:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+248:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+248:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+252:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+252:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+256:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+256:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+260:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+260:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+264:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+264:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+268:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+268:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+272:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+272:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+276:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+276:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+280:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+280:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+284:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+284:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+288:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+288:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+292:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+292:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+296:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+296:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+300:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+300:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+304:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+304:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+308:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+308:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+312:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+312:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+316:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+316:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+320:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+320:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+324:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+324:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+328:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+328:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+332:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+332:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+336:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+336:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+340:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+340:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+344:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+344:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+348:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+348:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+352:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+352:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+356:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+356:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+360:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+360:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+364:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+364:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+368:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+368:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+372:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+372:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+376:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+376:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+380:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+380:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+384:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+384:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+388:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+388:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+392:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+392:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+396:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+396:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+400:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+400:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+404:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+404:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+408:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+408:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+412:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+412:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+416:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+416:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+420:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+420:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+424:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+424:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+428:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+428:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+432:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+432:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+436:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+436:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+440:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+440:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+444:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+444:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+448:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+448:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+452:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+452:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+456:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+456:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+460:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+460:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+464:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+464:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+468:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+468:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+472:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+472:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+476:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+476:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+480:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+480:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+484:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+484:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+488:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+488:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+492:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+492:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+496:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+496:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+500:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+500:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************
+test:
+504:
+============================
+-0.0 with -100 from 12.56to12.45so we have 0.0
+-25.9 with 70 from 12.45to12.08so we have 69.3626445739
+-0.0 with -100 from 12.08to12.04so we have 0.0
+12.6 with 70 from 12.04to12.22so we have 70.3107019563
+-0.0 with -100 from 12.22to12.03so we have 0.0
+7.0 with 70 from 12.03to12.13so we have 70.173553719
+0.0 with -100 from 12.13to12.21so we have 0.0
+4.9 with 70 from 12.21to12.28so we have 70.1199119015
+0.0 with -100 from 12.28to12.52so we have 0.0
+-11.9 with 70 from 12.52to12.35so we have 69.7121199903
+**********************
+total_reward in this episode is:-13.3
+and make profit -1.03017376893
+*******************
+use:
+504:
+============================
+0.0 with -100 from 12.35to12.36so we have 0.0
+-16.1 with 70 from 12.36to12.13so we have 69.604065907
+0.0 with -100 from 12.13to12.21so we have 0.0
+1.4 with 70 from 12.21to12.23so we have 70.0343586387
+-0.0 with -100 from 12.23to12.12so we have 0.0
+19.6 with 70 from 12.12to12.4so we have 70.4774277363
+0.0 with -100 from 12.4to12.77so we have 0.0
+-10.5 with 70 from 12.77to12.62so we have 69.7512830636
+-0.0 with -100 from 12.62to12.5so we have 0.0
+39.2 with 70 from 12.5to13.06so we have 70.9121936084
+**********************
+total_reward in this episode is:33.6
+and make profit 2.70582581938
+*******************

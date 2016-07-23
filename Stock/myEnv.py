@@ -3,6 +3,7 @@ import numpy as np
 import DQN
 from gym import spaces
 import tensorflow as tf
+
 #return data,y_
 def read_data(fileName, labelNum):
     rf = open(fileName+".data", "r")
@@ -27,14 +28,25 @@ def read_data(fileName, labelNum):
     rf.close()
     return data,y_
 
+def read_data2(fileName,accord):
+    _,y = read_data(fileName,accord)
+    data = []
+    y_ = []
+    for i in range (y.__len__()-5):
+        d = y[i+1:i+6]
+        data.append(d)
+        y_.append(y[i])
+    return data,y_
+
 class OneStock():
     def __init__(self,fileName,labelNum,stop,start = 0):
         self.stop = stop
         self.fileName = fileName
         self.labelNum = labelNum
-        self.data, self.y_ = read_data(fileName, labelNum)
-        self.observation_space = spaces.Box(np.array([0, 0, 0, 0, 0, -10, -100, 0, 0, 0, 0, 0, 0, 0]),
-                                            np.array([100, 60, 60, 60, 500000, 10, 100,60, 60, 60, 400000, 400000, 400000, 30]))
+        self.data, self.y_ = read_data2(fileName, labelNum)
+        self.observation_space = spaces.Box(np.array([0,0,0,0,0,0]),np.array([100,100,100,100,100,100]))
+#        self.observation_space = spaces.Box(np.array([0, 0, 0, 0, 0, -10, -100, 0, 0, 0, 0, 0, 0, 0]),
+#                      np.array([100, 60, 60, 60, 500000, 10, 100,60, 60, 60, 400000, 400000, 400000, 30]))
         self.action_space = spaces.Discrete(21)
         if start == 0:
             self.index = self.data.__len__()-1 if self.data.__len__()-1<DQN.STEP else DQN.STEP
