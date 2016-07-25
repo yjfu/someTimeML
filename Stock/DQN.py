@@ -6,15 +6,15 @@ import random
 import myEnv
 import stockData
 
-ENV_NAME = 'CartPole-v0'
 GAMMA = 0.9
 INITIAL_EPSILON = 0.9
-FINAL_EPSILON = 0.01
+FINAL_EPSILON = 0.2
 REPLAY_SIZE = 10000
 BATCH_SIZE = 32
 TEST=10
 EPISODE = 2000
 STEP = 1000
+foutw = open("w2", "a")
 
 class DQN():
     def __init__(self,env):
@@ -48,12 +48,7 @@ class DQN():
         l2 = self.add_Layer(n_node,n_node2,l1)
         l3 = self.add_Layer(n_node2,n_node2,l2)
         l4 = self.add_Layer(n_node2,n_node2,l3)
-        """
-        w1 = self.weight_variable([self.state_dim,n_node])
-        b1 = self.bias_variable([n_node])
-        wh = self.weight_variable([n_node,n_node])
-        bh = self.bias_variable([n_node])
-        """
+
         self.w = self.weight_variable([n_node2, self.action_dim])
         self.b = self.bias_variable([self.action_dim])
 
@@ -66,7 +61,7 @@ class DQN():
         self.y_input = tf.placeholder("float",[None])
         Q_action = tf.reduce_sum(tf.mul(self.Q_value,self.action_input),reduction_indices=1)
         self.cost = tf.reduce_mean(tf.square(self.y_input - Q_action))
-        self.optimizer = tf.train.AdamOptimizer(0.002).minimize(self.cost)
+        self.optimizer = tf.train.AdamOptimizer(0.0005).minimize(self.cost)
     def perceive(self,state,action,reward,next_state,done):
         one_hot_action = np.zeros(self.action_dim)
         one_hot_action[action] = 1
@@ -85,9 +80,14 @@ class DQN():
             return np.argmax(Q_value)
 
     def action(self,state):
-        return np.argmax(self.Q_value.eval(feed_dict = {
+        qv = self.Q_value.eval(feed_dict = {
             self.state_input:[state]
-        })[0])
+        })[0]
+
+        foutw.write(str(qv))
+        foutw.write("\n")
+
+        return np.argmax(qv)
     def train_Q_network(self):
         self.time_step += 1
         minibatch = random.sample(self.replay_buffer,BATCH_SIZE)
@@ -116,7 +116,7 @@ class DQN():
             self.action_input:action_batch,
             self.state_input:state_batch
         })
-        print self.w.eval()
+
 
 def test(sockNum,env,episode,agent,time,use,is_test):
     fout = open("record" + sockNum, "a")
@@ -134,11 +134,9 @@ def test(sockNum,env,episode,agent,time,use,is_test):
     change = (env.y_[use]-env.y_[time])/env.y_[time]*100
     reward = 0.0
     for j in range(STEP):
-        # env.render()
         action = agent.action(state)
-        last = 10
         if action < 10:
-            last = state[0] + (action - 10) / 10.0 * state[0]
+            last = state[0] + (action+1 - 10) / 10.0 * state[0]
 
         else:
             last = state[0] + (action - 10) / 10.0 * (100 - state[0])
@@ -146,7 +144,7 @@ def test(sockNum,env,episode,agent,time,use,is_test):
         fund /= 100
         state, reward, done, _ = env.step(action)
         total_reward += reward
-        fout.write(str(reward) + " with " + str((action - 10) * 10) + " from " + str(_[0]) + "to" + str(_[1]) +
+        fout.write(str(reward) + " with " + str((action+1 - 10) * 10) + " from " + str(_[0]) + "to" + str(_[1]) +
                    "so we have " + str(state[0]) + "\n")
         if done:
             break
@@ -160,6 +158,7 @@ def test(sockNum,env,episode,agent,time,use,is_test):
     print '\t\twith the Stock changed by ', change, "%\n\n"
     return fund-100,reward,change
 def main(stockNum):
+
 
     time = 0
     use = 50
@@ -181,7 +180,7 @@ def main(stockNum):
             if done:
                 break
 
-        if episode %10 == 0:
+        if episode % 50== 0:
             p, r, c = test(stockNum,env,episode,agent,time,use,True)
             test(stockNum, env, episode, agent, use, 0, False)
             small = 0.0001

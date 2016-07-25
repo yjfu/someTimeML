@@ -47,7 +47,7 @@ class OneStock():
         self.observation_space = spaces.Box(np.array([0,0,0,0,0,0]),np.array([100,100,100,100,100,100]))
 #        self.observation_space = spaces.Box(np.array([0, 0, 0, 0, 0, -10, -100, 0, 0, 0, 0, 0, 0, 0]),
 #                      np.array([100, 60, 60, 60, 500000, 10, 100,60, 60, 60, 400000, 400000, 400000, 30]))
-        self.action_space = spaces.Discrete(21)
+        self.action_space = spaces.Discrete(20)
         if start == 0:
             self.index = self.data.__len__()-1 if self.data.__len__()-1<DQN.STEP else DQN.STEP
         else:
@@ -61,7 +61,7 @@ class OneStock():
         newClose = self.y_[self.index]
         close = 0.0 if self.index == self.data.__len__() else self.y_[self.index+1]
         reward = 0.0
-
+        action += 1
         if action < 10:
             reward = (newClose-close)*(newState[0]+(action-10)/10.0*newState[0])
             newState[0] = newState[0]+(action-10)/10.0*newState[0]
