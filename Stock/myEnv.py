@@ -33,7 +33,7 @@ def read_data2(fileName,accord):
     data = []
     y_ = []
     for i in range (y.__len__()-5):
-        d = y[i+1:i+6]
+        d = y[i+1:i+6]+[_[i][3],_[i][12]]
         data.append(d)
         y_.append(y[i])
     return data,y_
@@ -44,11 +44,11 @@ class OneStock():
         self.fileName = fileName
         self.labelNum = labelNum
         self.data, self.y_ = read_data2(fileName, labelNum)
-        self.observation_space = spaces.Box(np.array([0,0,0,0,0,0]),np.array([100,100,100,100,100,100]))
+        self.observation_space = spaces.Box(np.array([0,0,0,0,0,0,0,0]),np.array([100,100,100,100,100,100,100,100]))
 #        self.observation_space = spaces.Box(np.array([0, 0, 0, 0, 0, -10, -100, 0, 0, 0, 0, 0, 0, 0]),
 #                      np.array([100, 60, 60, 60, 500000, 10, 100,60, 60, 60, 400000, 400000, 400000, 30]))
         self.action_space = spaces.Discrete(20)
-        if start == 0:
+        if start == 0 or start > self.data.__len__()-6:
             self.index = self.data.__len__()-1 if self.data.__len__()-1<DQN.STEP else DQN.STEP
         else:
             self.index = start
@@ -63,11 +63,13 @@ class OneStock():
         reward = 0.0
         action += 1
         if action < 10:
-            reward = (newClose-close)*(newState[0]+(action-10)/10.0*newState[0])
+            reward = (newClose - close) * ((action - 10) / 10.0 * newState[0])
+            #reward = (newClose-close)*(newState[0]+(action-10)/10.0*newState[0])
             newState[0] = newState[0]+(action-10)/10.0*newState[0]
 
         else:
-            reward = (newClose-close)*(newState[0]+(action-10)/10.0*(100-newState[0]))
+            reward = (newClose - close) * ((action - 10) / 10.0 * (100 - newState[0]))
+            #reward = (newClose-close)*(newState[0]+(action-10)/10.0*(100-newState[0]))
             newState[0] = newState[0]+(action-10)/10.0*(100-newState[0])
         newState[0] = (newState[0]*newClose/close)/((100-newState[0])+newState[0]*newClose/close)*100
         done = False

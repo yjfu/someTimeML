@@ -8,11 +8,11 @@ import stockData
 
 GAMMA = 0.9
 INITIAL_EPSILON = 0.9
-FINAL_EPSILON = 0.2
+FINAL_EPSILON = 0.4
 REPLAY_SIZE = 10000
-BATCH_SIZE = 32
+BATCH_SIZE = 64
 TEST=10
-EPISODE = 2000
+EPISODE = 20000
 STEP = 1000
 foutw = open("w2", "a")
 
@@ -41,13 +41,13 @@ class DQN():
         ret = tf.nn.relu(tf.matmul(inlay,wh)+bh)
         return ret
     def create_Q_network(self):
-        n_node = 12
-        n_node2 = 12
+        n_node = 10
+        n_node2 = 10
         self.state_input = tf.placeholder("float",[None,self.state_dim])
         l1 = self.add_Layer(self.state_dim,n_node,self.state_input)
-        l2 = self.add_Layer(n_node,n_node2,l1)
-        l3 = self.add_Layer(n_node2,n_node2,l2)
-        l4 = self.add_Layer(n_node2,n_node2,l3)
+        #l2 = self.add_Layer(n_node,n_node2,l1)
+        #l3 = self.add_Layer(n_node2,n_node2,l2)
+        #l4 = self.add_Layer(n_node2,n_node2,l3)
 
         self.w = self.weight_variable([n_node2, self.action_dim])
         self.b = self.bias_variable([self.action_dim])
@@ -55,13 +55,13 @@ class DQN():
         #h_layer = tf.nn.relu(tf.matmul(self.state_input,w1)+b1)
         #h_layer2 = tf.nn.relu(tf.matmul(h_layer,wh)+bh)
         #self.Q_value=tf.matmul(h_layer2,w2)+b2
-        self.Q_value = tf.matmul(l4,self.w)+self.b
+        self.Q_value = tf.matmul(l1,self.w)+self.b
     def create_training_method(self):
         self.action_input = tf.placeholder("float",[None,self.action_dim])
         self.y_input = tf.placeholder("float",[None])
         Q_action = tf.reduce_sum(tf.mul(self.Q_value,self.action_input),reduction_indices=1)
         self.cost = tf.reduce_mean(tf.square(self.y_input - Q_action))
-        self.optimizer = tf.train.AdamOptimizer(0.0005).minimize(self.cost)
+        self.optimizer = tf.train.AdamOptimizer(0.00001).minimize(self.cost)
     def perceive(self,state,action,reward,next_state,done):
         one_hot_action = np.zeros(self.action_dim)
         one_hot_action[action] = 1
@@ -73,7 +73,10 @@ class DQN():
             self.train_Q_network()
     def egreedy_action(self,state):
         Q_value = self.Q_value.eval(feed_dict={self.state_input:[state]})[0]
-        self.epsilon -= (INITIAL_EPSILON-FINAL_EPSILON)/100000
+        #foutw.write(str(Q_value))
+        #foutw.write("\n")
+        self.epsilon -= (INITIAL_EPSILON-FINAL_EPSILON)/2000000
+
         if random.random()<=self.epsilon:
             return random.randint(0,self.action_dim-1)
         else:
@@ -84,8 +87,8 @@ class DQN():
             self.state_input:[state]
         })[0]
 
-        foutw.write(str(qv))
-        foutw.write("\n")
+        #foutw.write(str(qv))
+        #foutw.write("\n")
 
         return np.argmax(qv)
     def train_Q_network(self):
@@ -97,8 +100,17 @@ class DQN():
         next_state_batch = [data[3] for data in minibatch]
 
         y_batch = []
-        Q_value_batch = self.Q_value.eval(feed_dict={self.state_input:next_state_batch})
-        for i in range(0,BATCH_SIZE):
+        #Q_value_batch = self.Q_value.eval(feed_dict={self.state_input:next_state_batch})
+        i = 0
+        r = BATCH_SIZE
+        #for i in range(0,BATCH_SIZE):
+        while i < r:
+            if reward_batch[i]<0:
+                del reward_batch[i]
+                del action_batch[i]
+                del state_batch[i]
+                r -= 1
+                continue
             done = minibatch[i][4]
             '''
             if reward_batch[i]<0:
@@ -109,13 +121,15 @@ class DQN():
             if done:
                 y_batch.append(reward_batch[i])
             else:
-                y_batch.append(reward_batch[i]+GAMMA*np.max(Q_value_batch[i]))
-
-        self.optimizer.run(feed_dict={
-            self.y_input:y_batch,
-            self.action_input:action_batch,
-            self.state_input:state_batch
-        })
+                y_batch.append(reward_batch[i])
+                #y_batch.append(reward_batch[i]+GAMMA*np.max(Q_value_batch[i]))
+            i += 1
+        for _ in range(3):
+            self.optimizer.run(feed_dict={
+                self.y_input:y_batch,
+                self.action_input:action_batch,
+                self.state_input:state_batch
+            })
 
 
 def test(sockNum,env,episode,agent,time,use,is_test):
@@ -131,6 +145,8 @@ def test(sockNum,env,episode,agent,time,use,is_test):
         print "use:\n"
     fout.write(str(episode) + ":\n============================\n")
     fund = 100.0
+    if time == 0:
+        time = env.y_.__len__()-1
     change = (env.y_[use]-env.y_[time])/env.y_[time]*100
     reward = 0.0
     for j in range(STEP):
@@ -148,14 +164,18 @@ def test(sockNum,env,episode,agent,time,use,is_test):
                    "so we have " + str(state[0]) + "\n")
         if done:
             break
-
+    fout.write('b is\n' + str(agent.b.eval()) + '\n' + 'w is\n' + str(agent.w.eval()) + '\n\n')
     fout.write(str("**********************\ntotal_reward in this episode is:" + str(total_reward)
                    + "\nand make profit " + str(fund - 100) + "\n*******************\n"))
+
     fout.close()
 
     print '\t\tepisode: ', episode, 'evaluation total reward:', total_reward,"\n"
     print '\t\t and create profit by',fund - 100,'\n'
-    print '\t\twith the Stock changed by ', change, "%\n\n"
+    print '\t\twith the Stock changed by ', change, "%\n"
+
+
+
     return fund-100,reward,change
 def main(stockNum):
 
@@ -180,7 +200,7 @@ def main(stockNum):
             if done:
                 break
 
-        if episode % 50== 0:
+        if episode % 100== 0:
             p, r, c = test(stockNum,env,episode,agent,time,use,True)
             test(stockNum, env, episode, agent, use, 0, False)
             small = 0.0001
