@@ -14,7 +14,6 @@ BATCH_SIZE = 64
 TEST=10
 EPISODE = 20000
 STEP = 1000
-foutw = open("w2", "a")
 
 class DQN():
     def __init__(self,env):
@@ -86,9 +85,6 @@ class DQN():
         qv = self.Q_value.eval(feed_dict = {
             self.state_input:[state]
         })[0]
-
-        #foutw.write(str(qv))
-        #foutw.write("\n")
 
         return np.argmax(qv)
     def train_Q_network(self):
@@ -169,7 +165,14 @@ def test(sockNum,env,episode,agent,time,use,is_test):
                    + "\nand make profit " + str(fund - 100) + "\n*******************\n"))
 
     fout.close()
-
+    if is_test:
+        fout = open('tr'+sockNum,'a')
+    else:
+        fout = open('ur'+sockNum,'a')
+    fout.write('episode: '+str(episode)+'evaluation total reward:'+str(total_reward)+"\n")
+    fout.write('and create profit by'+str(fund - 100)+'\n')
+    fout.write('with the Stock changed by '+str(change)+"%\n\n")
+    fout.close()
     print '\t\tepisode: ', episode, 'evaluation total reward:', total_reward,"\n"
     print '\t\t and create profit by',fund - 100,'\n'
     print '\t\twith the Stock changed by ', change, "%\n"
@@ -177,7 +180,7 @@ def test(sockNum,env,episode,agent,time,use,is_test):
 
 
     return fund-100,reward,change
-def main(stockNum):
+def exc(stockNum):
 
 
     time = 0
@@ -190,7 +193,6 @@ def main(stockNum):
     rl = 0.0
     for episode in xrange(EPISODE):
         state = env.reset(use)
-        #print "ep",episode,"\n"
         for step in xrange(STEP):
             action = agent.egreedy_action(state)
             next_state, reward, done, _ = env.step(action)
@@ -212,6 +214,17 @@ def main(stockNum):
                 pl = p
                 rl = r
 '''
+def main(num):
+    stockNums = []
+    fout = open('stock','r')
+    s = fout.readline()
 
-if __name__ == '__main__':
-  main("600028")
+    while s:
+        s = s.rstrip('\n')
+        stockNums.append(s)
+        s = fout.readline()
+    if num == 0:
+        num = stockNums.__len__()
+    for i in range(num):
+        exc(stockNums[i])
+
